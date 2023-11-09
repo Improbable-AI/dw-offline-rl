@@ -36,7 +36,7 @@ pip install -e .
 ```
 
 # Usage
-The experiment launching scripts are structured in the following ways
+Setup local dependencies by running `source setup.sh` and then launch the experiments using the scripts in `experiments`. The experiment launching scripts are structured in the following ways
 ```bash
 - ./experiments # all experiment launching scripts
   - d4rl # all experiment launching scripts for D4RL datasets
