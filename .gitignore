@@ -1,0 +1,15 @@
+d3rlpy_logs/*
+__pycache__/
+wandb/*
+
+results
+
+suboptimal_offline_datasets
+
+*.cache
+*.pdf
+*.png
+*.hdf5
+*.pkl
+*.npy
+*.csv

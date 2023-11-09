@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Seno"
+  given-names: "Takuma"
+title: "d3rlpy: An offline deep reinforcement learning library"
+version: 1.1.1
+date-released: 2022-11-26
+url: "https://github.com/takuseno/d3rlpy"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Seno"
+    given-names: "Takuma"
+  - family-names: "Imai"
+    given-names: "Michita"
+  journal: "Journal of Machine Learning Research"
+  month: 11
+  title: "d3rlpy: An Offline Deep Reinforcement Learning Library"
+  year: 2022
+  url: http://jmlr.org/papers/v23/22-0017.html
+  volume: 23
+  issue: 315
+  start: 1
+  end: 20
