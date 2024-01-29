@@ -57,8 +57,21 @@ The following explains the the purpose of each argument:
     - `bash`: Only generate bash commands of running experiments. This is useful when you want to dump the commands and customize them for small experiments. Suggest using this with redirection (e.g., `python experiments/d4rl/run_cql.py --mode bash --gpus 0 > commands.sh`)
     - `gcp`: Launch job on GCP with [`jaynes`](https://github.com/geyang/jaynes-starter-kit). Note that I have not been maintaining this feature for a while. You may need to figure out the configuration details.
 - `--gpus`: A list of GPU IDs you would like to run jobs. For example, if you want to run jobs on GPUs 0, 1, 2, 3, and 4, then you should use `--gpus 0 1 2 3 4` and the jobs will be evenly distributed on those GPUs.
-- `--n_jobs`: Number of jobs executed in parallel. Each job consists of multiple commands that will be executed sequentially. 
+- `--n_jobs`: Number of jobs executed in parallel. Each job consists of multiple commands that will be executed sequentially.
 
 # Reproduced experimental results with this public codebase
 WIP
+
+
+# Cite
+```latex
+@inproceedings{
+hong2023dw,
+title={Beyond Uniform Sampling: Offline Reinforcement Learning with Imbalanced Datasets},
+author={Zhang-Wei Hong and Aviral Kumar and Sathwik Karnik and Abhishek Bhandwaldar and Akash Srivastava and Joni Pajarinen and Romain Laroche and Abhishek Gupta and Pulkit Agrawal},
+booktitle={Proceedings of the 37nd Conference on Neural Information Processing Systems},
+year={2023},
+url={https://arxiv.org/pdf/2310.04413.pdf}
+}
+```
 
